@@ -29,9 +29,20 @@ $ pip install requirements.txt
 > python manage.py run
 ```
 
-## Using DOCKER (tbd)
+## Using DOCKER
 
----
+```
+  # build and run docker container
+  $ docker-compose up -d --build
+  # check if it runs with no errors
+  $ docker-compose logs
+```
+
+## Deployment
+
+```
+TBD
+```
 
 ### To run Open API page (Swagger)
 

@@ -3,3 +3,12 @@ env
 Dockerfile
 Dockerfile.prod
 
+data/
+frontend/
+models/
+share/
+*.ipynb
+*.md 
+.git
+.cache
+
