@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 import joblib
 
-MODEL_PATH = os.path.join(Path(__file__).parent.parent, 'models')
+MODEL_PATH = os.path.join(Path(__file__).parent.parent, 'api_models')
 
 
 def predict_danceability(acousticness, popularity, duration_ms, energy,

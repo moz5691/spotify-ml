@@ -6,7 +6,7 @@ import joblib
 from tensorflow.keras.models import load_model
 ### retreive model and weight
 
-MODEL_PATH = os.path.join(Path(__file__).parent.parent, 'models')
+MODEL_PATH = os.path.join(Path(__file__).parent.parent, 'api_models')
 
 # h1 = joblib.load(f'{MODEL_PATH}/placeholder.txt')
 
