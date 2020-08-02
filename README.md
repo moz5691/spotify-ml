@@ -36,9 +36,10 @@ $ pip install requirements.txt
 ### To run Open API page (Swagger)
 
 - Open browser, `http://localhost:3000/doc`
+- refer "Models" section for Input data types and format
 
 ### Folder structure
 
-- project/api/models <-- Create model and scaler using Jupyter notebook and move them to this folder
+- project/api/api_models <-- Create model and scaler using Jupyter notebook and move them to this folder
 - project/api/pred_popularity <-- views and crud for popularity prediction
 - project/api/pred_danceability <-- views and crud for danceability prediction
