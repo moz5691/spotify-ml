@@ -4,6 +4,8 @@ env
 .pytest_cache
 data/
 
+models/
+
 
 /frontend/node_modules
 /frontend/.pnp
