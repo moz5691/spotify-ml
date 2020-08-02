@@ -4,6 +4,8 @@
 
 ## Download datafile and store in data folder at root level.
 
+https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db/data#
+
 ## Using CLI (no docker)
 
 - Mac/Linux
@@ -24,14 +26,14 @@ $ pip install requirements.txt
 > pip install requirements.txt
 > set FLASK_APP = "project/__init__.py"
 > set FLASK_ENV = "development"
-> python manage.py
+> python manage.py run
 ```
 
 ## Using DOCKER (tbd)
 
 ---
 
-### To run Open API page (SWagger)
+### To run Open API page (Swagger)
 
 - Open browser, `http://localhost:3000/doc`
 
