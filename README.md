@@ -41,12 +41,19 @@ $ pip install requirements.txt
 ## Deployment
 
 ```
-TBD
+$ heroku create
+Creating app... done, ⬢ mighty-eyrie-17457
+
+$ heroku container:login
+$ docker build -f Dockerfile.prod -t registry.heroku.com/mighty-eyrie-17457/web .
+$ docker push registry.heroku.com/mighty-eyrie-17457/web:latest
+$ heroku container:release web -a mighty-eyrie-17457
 ```
 
 ### To run Open API page (Swagger)
 
-- Open browser, `http://localhost:3000/doc`
+- Open browser, For CLI, `http://localhost:5000/doc`
+  For Docker, `http://localhost:5001/doc`
 - refer "Models" section for Input data types and format
 
 ### Folder structure
